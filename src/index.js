@@ -1,11 +1,7 @@
-import  { render } from "react-dom";
+import {render} from 'react-dom';
 import Metronome from "./Metronome";
-import "./index.css";
+import React from 'react';
+import "./style.css";
 
-  
-  
-render(
-        <Metronome/>,
-        document.getElementById('root')
-);
 
+render(<Metronome />, document.getElementById('root'));
